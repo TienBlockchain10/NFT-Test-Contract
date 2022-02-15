@@ -1,0 +1,32 @@
+{
+  "name": "nft-collection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TienBlockchain10/NFT-Collectible-Squirrels.git"
+  },
+  "author": "Tien Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TienBlockchain10/NFT-Collectible-Squirrels/issues"
+  },
+  "homepage": "https://github.com/TienBlockchain10/NFT-Collectible-Squirrels#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.8.3"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@openzeppelin/contracts": "^4.4.2",
+    "dotenv": "^15.0.0"
+  }
+}
